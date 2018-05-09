@@ -1,0 +1,162 @@
+[
+  {
+    "title": "Basic",
+    "list": [
+      {
+        "path": "/font",
+        "name": "Font",
+        "icon": "font"
+      },
+      {
+        "path": "/icon",
+        "name": "Icon",
+        "icon": "icon"
+      },
+      {
+        "path": "/button",
+        "name": "Button",
+        "icon": "button"
+      }
+    ]
+  },
+  {
+    "title": "Navigation",
+    "list": [
+      {
+        "path": "/header",
+        "name": "Header",
+        "icon": "header"
+      },
+      {
+        "path": "/tabs",
+        "name": "Tabs",
+        "icon": "tabs"
+      },
+      {
+        "path": "/tabbar",
+        "name": "Tabbar",
+        "icon": "tabbar"
+      }
+    ]
+  },
+  {
+    "title": "View",
+    "list": [
+      {
+        "path": "/list",
+        "name": "List",
+        "icon": "list"
+      },
+      {
+        "path": "/modal",
+        "name": "Modal",
+        "icon": "modal"
+      },
+      {
+        "path": "/messagebox",
+        "name": "MessageBox",
+        "icon": "messagebox"
+      },
+      {
+        "path": "/toast",
+        "name": "Toast",
+        "icon": "toast"
+      },
+      {
+        "path": "/indicator",
+        "name": "Indicator",
+        "icon": "indicator"
+      },
+      {
+        "path": "/action-sheet",
+        "name": "ActionSheet",
+        "icon": "action-sheet"
+      },
+      {
+        "path": "/infinite-scroll",
+        "name": "InfiniteScroll",
+        "icon": "infinite-scroll"
+      },
+      {
+        "path": "/loadmore",
+        "name": "LoadMore",
+        "icon": "load-more"
+      },
+      {
+        "path": "/progress",
+        "name": "Progress",
+        "icon": "progress"
+      },
+      {
+        "path": "/searchbar",
+        "name": "Searchbar",
+        "icon": "searchbar"
+      },
+      {
+        "path": "/swipe",
+        "name": "Swipe",
+        "icon": "swipe"
+      },
+      {
+        "path": "/spinner",
+        "name": "Spinner",
+        "icon": "spinner"
+      },
+      {
+        "path": "/badge",
+        "name": "Badge",
+        "icon": "badge"
+      }
+    ]
+  },
+  {
+    "title": "Form",
+    "list": [
+      {
+        "path": "/input",
+        "name": "Input",
+        "icon": "input"
+      },
+      {
+        "path": "/radio",
+        "name": "Radio",
+        "icon": "radio"
+      },
+      {
+        "path": "/checkbox",
+        "name": "Checkbox",
+        "icon": "checkbox"
+      },
+      {
+        "path": "/switch",
+        "name": "Switch",
+        "icon": "switch"
+      },    
+      {
+        "path": "/upload",
+        "name": "Upload",
+        "icon": "upload"
+      },
+      {
+        "path": "/picker",
+        "name": "Picker",
+        "icon": "picker"
+      },
+      {
+        "path": "/datetime-picker",
+        "name": "DatetimePicker",
+        "icon": "datetime-picker"
+      }
+    ]
+  },
+  {
+    "title": "Other",
+    "list": [
+      {
+        "path": "/backtop",
+        "name": "Backtop",
+        "icon": "backtop"
+      }
+    ]
+  }
+]

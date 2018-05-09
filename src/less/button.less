@@ -1,0 +1,129 @@
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: @btn-height-default;
+  line-height: 1;
+  padding: 0 @content-spacing;
+  margin: 0;
+  color: @font-color-default;
+  text-decoration: none;
+  text-align: center;
+  border: 0; 
+  border-radius: @border-radius-default;
+  outline: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 16px;
+  font-family: @font-family-default;
+  .appearance(none);
+
+  &::after {
+    background-color: #222;
+    content: " ";
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+  }
+
+  &:not(.btn-disabled):active::after {
+    opacity: .2;
+  }
+}
+
+.btn-default {
+  background-color: @btn-default-bg-color;
+  .box-shadow(0 0 1px #90949e);
+  &.btn-plain {
+    color: @font-color-default;
+    border: 1px solid #b0b9bf;
+    .box-shadow(none);
+    &::after {
+      background-color: #b8bfce;
+    };
+  }
+}
+.btn-primary {
+  color: @btn-primary-color;
+  background-color: @btn-primary-bg-color;
+  &.btn-plain {
+    color: @btn-primary-bg-color;
+    border: 1px solid @btn-primary-bg-color;
+    &::after {
+      background-color: @btn-primary-bg-color;
+    };
+  }
+}
+.btn-info {
+  color: @btn-info-color;
+  background-color: @btn-info-bg-color;
+  &.btn-plain {
+    color: @btn-info-bg-color;
+    border: 1px solid @btn-info-bg-color;
+    &::after {
+      background-color: @btn-info-bg-color;
+    };
+  }
+}
+.btn-success {
+  color: @btn-success-color;
+  background-color: @btn-success-bg-color;
+  &.btn-plain {
+    color: @btn-success-bg-color;
+    border: 1px solid @btn-success-bg-color;
+    &::after {
+      background-color: @btn-success-bg-color;
+    };
+  }
+}
+.btn-warning {
+  color: @btn-warning-color;
+  background-color: @btn-warning-bg-color;
+  &.btn-plain {
+    color: @btn-warning-bg-color;
+    border: 1px solid @btn-warning-bg-color;
+    &::after {
+      background-color: @btn-warning-bg-color;
+    };
+  }
+}
+.btn-danger {
+  color: @btn-danger-color;
+  background-color: @btn-danger-bg-color;
+  &.btn-plain {
+    color: @btn-danger-bg-color;
+    border: 1px solid @btn-danger-bg-color;
+    &::after {
+      background-color: @btn-danger-bg-color;
+    };
+  }
+}
+
+.btn-small, .btn-normal, .btn-large {
+  display: inline-block;
+  width: auto; 
+}
+.btn-small {
+  height: @btn-height-default - 8;
+  font-size: 14px;
+}
+.btn-normal {
+  height: @btn-height-default;
+}
+.btn-large {
+  height: @btn-height-default + 8;
+  font-size: 18px;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+.btn-plain {
+  background-color: #fff;
+}
+.btn-disabled {
+  opacity: .5;
+}

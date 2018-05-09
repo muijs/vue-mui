@@ -1,0 +1,47 @@
+//
+// Base styles
+// --------------------------------------------------
+
+// Use box sizing on all the things!
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-touch-callout: none; // Removes the dark touch outlines in webkit browsers.
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: @font-family-default;
+  font-size: @font-size-default;
+  line-height: @line-height-default;
+  color: @font-color-default;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: @font-family-default;
+}
+
+// Universal link styling
+a {
+  color: @font-color-default;
+  text-decoration: none;
+
+  &:active {
+    color: darken(@font-color-default, 10%);
+  }
+}
+
+// Utility classes
+.clearfix {
+  .clearfix();
+}

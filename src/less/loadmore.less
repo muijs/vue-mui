@@ -1,0 +1,38 @@
+.loadmore {
+  overflow: hidden;
+
+  .loadmore-top,
+  .loadmore-bottom {
+    height: 40px;
+    line-height: 40px;
+    color: @color-text-gray;
+    font-size: 12px;
+    text-align: center;
+
+    > .icon {
+      vertical-align: -3px;
+    }
+    > .icon-arrow-down,
+    > .icon-arrow-up {
+      .transition(.2s linear)
+    }
+  }
+  .loadmore-top {
+    margin-top: -40px;
+    > .icon-arrow-down.flip {
+      vertical-align: -5px;
+      .rotate(180deg);
+    }
+  }
+  .loadmore-bottom {
+    margin-bottom: -40px;
+    > .icon-arrow-up.flip {
+      vertical-align: -5px;
+      .rotate(180deg);
+    }
+  }
+
+  .loadmore-inner.dropped {
+    .transition(.2s)
+  }
+}
