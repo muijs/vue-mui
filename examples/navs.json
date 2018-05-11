@@ -3,11 +3,6 @@
     "title": "Basic",
     "list": [
       {
-        "path": "/font",
-        "name": "Font",
-        "icon": "font"
-      },
-      {
         "path": "/icon",
         "name": "Icon",
         "icon": "icon"
@@ -83,21 +78,6 @@
         "icon": "load-more"
       },
       {
-        "path": "/progress",
-        "name": "Progress",
-        "icon": "progress"
-      },
-      {
-        "path": "/searchbar",
-        "name": "Searchbar",
-        "icon": "searchbar"
-      },
-      {
-        "path": "/swipe",
-        "name": "Swipe",
-        "icon": "swipe"
-      },
-      {
         "path": "/spinner",
         "name": "Spinner",
         "icon": "spinner"
@@ -118,44 +98,14 @@
         "icon": "input"
       },
       {
-        "path": "/radio",
-        "name": "Radio",
-        "icon": "radio"
-      },
-      {
-        "path": "/checkbox",
-        "name": "Checkbox",
-        "icon": "checkbox"
-      },
-      {
         "path": "/switch",
         "name": "Switch",
         "icon": "switch"
-      },    
-      {
-        "path": "/upload",
-        "name": "Upload",
-        "icon": "upload"
       },
       {
         "path": "/picker",
         "name": "Picker",
         "icon": "picker"
-      },
-      {
-        "path": "/datetime-picker",
-        "name": "DatetimePicker",
-        "icon": "datetime-picker"
-      }
-    ]
-  },
-  {
-    "title": "Other",
-    "list": [
-      {
-        "path": "/backtop",
-        "name": "Backtop",
-        "icon": "backtop"
       }
     ]
   }
