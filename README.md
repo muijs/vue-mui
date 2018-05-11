@@ -1,9 +1,9 @@
 # vue-mui
 Mobile UI elements for Vue 2.x
 
-## Examples
+## Documentation
 
-[examples](https://muijs.github.io/vue-mui)
+[documentation](https://muijs.github.io/vue-mui-docs/guide)
 
 ## Installation
 ```bash
