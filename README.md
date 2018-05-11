@@ -3,7 +3,7 @@ Mobile UI elements for Vue 2.x
 
 ## Examples
 
-[examples](https://muijs.github.io)
+[examples](https://muijs.github.io/vue-mui)
 
 ## Installation
 ```bash
